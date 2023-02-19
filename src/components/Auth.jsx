@@ -32,7 +32,7 @@ const Auth = () => {
          const URL = 'https://elegant-frock-lamb.cyclic.app';
 
         const { data: { token, userId, hashedPassword } } = await axios.post(`${URL}/${isSignup ? 'signup' : 'login'}`, {
-            username, password, fullName, phoneNumber, 
+            username, password, fullName, phoneNumber 
         });
 
         cookies.set('token', token);
