@@ -26,7 +26,7 @@ const Auth = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
 
-        const { fullName, username, password, phoneNumber,  } = form;
+        const { fullName, username, password, phoneNumber  } = form;
 
          //const URL = 'https://localhost:5001/auth';
          const URL = 'https://elegant-frock-lamb.cyclic.app';
