@@ -11,8 +11,7 @@ const initialState = {
     username: '',
     password: '',
     confirmPassword: '',
-    phoneNumber: '',
-    avatarURL: '',
+    phoneNumber: ''
 }
 
 const Auth = () => {
